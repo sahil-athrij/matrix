@@ -1,8 +1,26 @@
 # from math import *
 
-
+"""Matrix class
+"""
 class Matrix:
-
+    """matrix class(row,column)
+    available funtions :
+    enter_matrix() - enters matrix of the size
+    deleterow(row_no) - returns matrix with deleted row
+    deletecolumn(column_no)- returns matrix with deleted column
+    detrminant() - returns determinant of matrix as float
+    min() - returns minor of the matrix
+    cofactor() - returns cofactor of matrix
+    adj() - returns adj
+    inverse() - returns inverse of matrix
+    getcolumn(column_no) - returns a coulm as a list
+    transpose() - returns transpose of a matrix
+    issquare() 
+    isdiagonal()
+    isscalar()
+    isidentity()
+    append(matrix1,matrix2 .....)
+    Operators : + , - , *,/"""
 
     def __init__(self, row, column):
 
